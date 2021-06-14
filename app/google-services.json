@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "816852013742",
+    "project_id": "pat-phonebook-dad67",
+    "storage_bucket": "pat-phonebook-dad67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816852013742:android:7e6551676d3c4ae38e533f",
+        "android_client_info": {
+          "package_name": "com.rplrus.pas_sarah_28_10rpl2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816852013742-iqmv7gv7em1cbr1m49uv8ev7eqdagvn9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rplrus.pas_sarah_28_10rpl2",
+            "certificate_hash": "14536efff1cadfb482c84a6d417bc06808e317b0"
+          }
+        },
+        {
+          "client_id": "816852013742-4l9ounqdjcnqiikss79ihs8o139upvrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXpQZJ-veywbQaeSUzJTB49LABfwwra5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816852013742-4l9ounqdjcnqiikss79ihs8o139upvrl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

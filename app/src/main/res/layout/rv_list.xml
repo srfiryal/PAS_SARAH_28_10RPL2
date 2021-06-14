@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/rv_layout_list"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_list"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/tv_title_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="13.5dp"
+            android:layout_toRightOf="@id/img_list"
+            android:layout_toEndOf="@id/img_list" />
+
+        <TextView
+            android:id="@+id/tv_desc_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desc"
+            android:layout_toRightOf="@id/img_list"
+            android:layout_toEndOf="@id/img_list"
+            android:layout_below="@id/tv_title_list"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
